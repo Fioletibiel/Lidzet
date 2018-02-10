@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="- sum_sound -"
+            android:text="Piosenka"
             android:textColor="#000" />
 
         <LinearLayout
