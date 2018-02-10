@@ -38,7 +38,7 @@ public class Lidzet extends AppWidgetProvider {
         // WWW
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        i.setData(Uri.parse("http://www.przemo.org/phpBB2/forum/"));
+        i.setData(Uri.parse("http://www.pja.edu.pl/"));
         PendingIntent pi = PendingIntent.getActivity(context, 0, i, 0);
         views.setOnClickPendingIntent(R.id.btn_broadcast, pi);
 
@@ -112,9 +112,9 @@ public class Lidzet extends AppWidgetProvider {
         leftImgId = 0;
         rightImgId = 0;
 
-        addTrack(R.raw.amiga, "X-Out");
-        addTrack(R.raw.blondie, "Blondie");
-        addTrack(R.raw.hammer, "Jan Hammer");
+        addTrack(R.raw.guitar, "Guitar");
+        addTrack(R.raw.xmas, "Xmas");
+        addTrack(R.raw.benny_hill, "Benny Hill");
 
         resetTrack(context);
 

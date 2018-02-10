@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Lidzet</string>
-    <string name="appwidget_text">PJATK</string>
+    <string name="appwidget_text">PJATK - Łidżet</string>
     <string name="add_widget">Add widget</string>
-    <string name="open_website">Strona WWW</string>
-    <string name="show_images">Obrazki</string>
-    <string name="show_soundpanel">Dzwieki</string>
-    <string name="show_image1">Obrazek 1</string>
-    <string name="show_image2">Obrazek 2</string>
+    <string name="otworz_www">WWW</string>
+    <string name="pokaz_obrazki">Obrazki</string>
+    <string name="pokaz_obrazek_1">Obraz nr.1</string>
+    <string name="pokaz_obrazek_2">Obraz nr.2</string>
+    <string name="pokaz_odtwarzacz">Dzwieki</string>
 </resources>
