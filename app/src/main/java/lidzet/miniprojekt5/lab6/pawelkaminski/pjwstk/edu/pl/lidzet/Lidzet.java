@@ -32,8 +32,8 @@ public class Lidzet extends AppWidgetProvider {
 
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.lidzet);
 
-        Log.e("URZA_MP", "Called UPDATE");
-        Log.e("URZA_MP", "Img IDs L/R:" + leftImgId + "/" + rightImgId);
+        Log.e("LOGG", "Called UPDATE");
+        Log.e("LOGG", "Img IDs L/R:" + leftImgId + "/" + rightImgId);
 
         // WWW
         Intent i = new Intent(Intent.ACTION_VIEW);
@@ -131,7 +131,7 @@ public class Lidzet extends AppWidgetProvider {
     {
         super.onReceive(context, intent);
 
-        Log.e("URZA_MP", "Action: " + intent.getAction());
+        Log.e("LOGG", "Action: " + intent.getAction());
         Boolean doPlay = mp.isPlaying();
         Random rn = new Random();
 
@@ -184,7 +184,7 @@ public class Lidzet extends AppWidgetProvider {
         k.add(0, rawId);
         k.add(1, name);
         playlist.add(k);
-        Log.e("URZA_MP", "addTrack ListSize: " + playlist.size());
+        Log.e("LOGG", "addTrack ListSize: " + playlist.size());
     }
 
     private void updateAll(Context c)
@@ -200,7 +200,7 @@ public class Lidzet extends AppWidgetProvider {
 
     private void resetTrack(Context c)
     {
-        Log.e("URZA_MP", "resetTrack ListSize: " + playlist.size());
+        Log.e("LOGG", "resetTrack ListSize: " + playlist.size());
 
         try
         {
